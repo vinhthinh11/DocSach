@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Roboto+Mono&family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma,'Roboto Mono', monospace;
+}
+html,body {
+    width: 100%;
+    height: 100%;    
+}
+section {
+    background-image: url(images/hang-dong.jpeg);
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-left: 20px auto;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin:20px;
+    align-items: center;
+    background-color: brown;
+}
+body{
+    background-color: brown; 
+}
+.card{
+    background-color: #a3682f;
+    color: #cbefef;
+    height: 500px;
+    margin: 10px auto;
+}
+.card-img-top{
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+}
+.icons .facebook i{
+    font-size: 40px;  
+    box-sizing: border-box;   
+    display: inline-block;
+    color: white;
+}
+.icons .facebook i:hover{
+    font-size: 30px;
+    transition: 0.5s;
+    color: black;
+}
+
+.navbar-brand{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-text{
+    text-align: justify;
+}
+footer{
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783__480.jpg);
+}
+head{
+    background-color: #804c1ab5;
+}
+.card{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+img .github-icon{
+    width: 2px;
+    height: 2px;
+}
+.contract{
+   background-color:  #27624f;
+   color: #cdffc0;
+   font-weight: 600;
+   text-align: center;
+   padding: 20px;
+}
+.member{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: normal;
+}
